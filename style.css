@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+body {
+  background-image: url("./assets/backg.png");
+  background-size: cover;
+  /* margin: 30px 100px; */
+}
+
+.container {
+  background-color: rgba(18, 14, 67, 0.566);
+  width: 100%;
+  height: 100%;
+  padding: 30px 100px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 20vh;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  color: #FFC233;
+  font-size: 25px;
+}
+
+.list-item {
+  padding: 40px;
+}
+
+.button-small {
+  color: #fff;
+  font-size: 25px;
+  padding: 10px 25px;
+  background-color: #E6425E;
+  border: none;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.bottom {
+  align-self: flex-end;
+  margin-top: 100px;
+}
+
+.hero-heading {
+  color: #FFC233;
+  font-size: 110px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 0;
+  font-family: 'Dela Gothic One';
+}
+
+.button-large {
+  color: #fff;
+  font-size: 30px;
+  padding: 25px 50px;
+  border: none;
+  margin-top: 50px;
+  background-color: #E6425E;
+}
